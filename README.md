@@ -6,7 +6,7 @@ _React.js is a declarative, efficient, and flexible JavaScript library for build
 
 ![Namste React](https://img.shields.io/badge/Reactr-JS-blue)
 ![Namaste React](https://img.shields.io/badge/Namaste-React-red)
-![Namaste React](https://img.shields.io/badge/Akshay-Saini-black)
+![Namaste React](https://img.shields.io/badge/Akshay-Saini-orange)
 
 
 
