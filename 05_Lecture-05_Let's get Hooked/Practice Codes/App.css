@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    margin: 2rem 1rem 5rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-items {
+    margin: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    list-style-type: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+}
+
+.card-container {
+    width: 10em;
+    max-width: 30em;
+    margin: 0 3rem;
+    padding: 2em;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 25em);
+    grid-gap: 3rem;
+    align-self: auto;
+    align-items: baseline;
+}
+
+.card {
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    border: 1px solid white;
+    box-shadow: 10px 10px 1px wheat;
+    cursor: pointer;
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.card-info {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-info p {
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 1em;
+    color: blanchedalmond;
+}
+
+.card-info :nth-child(1) {
+    /* font-weight:  */
+    font-size: 2rem;
+    font-style: oblique;
+    color: #fff
+}
+
+.card-img {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border: 10px solid wheat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.filter-btn {
+    position: absolute;
+    top: 5rem;
+    left: 30rem;
+    width: 20rem;
+    max-width: 30rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.filter-btn:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 2s;
+    border: 3px solid blanchedalmond;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
